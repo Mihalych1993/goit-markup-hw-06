@@ -763,7 +763,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 @media screen and (min-width: 768px) {
     .container {
     max-width: 736px;
-    padding-left: 16;
+    padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
     }
@@ -787,4 +787,31 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #ffffff;
     margin-bottom: 32px;
     }
+    .advantages {
+        
+        padding-bottom: 96px;
+    }
+    .advantages-list {
+        display: flex;
+        flex-direction: row;
+        row-gap: 72px;
+        column-gap: 24px;
+        flex-wrap: wrap;
+        
+    }
+.advantages-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 356px;
+    height: 120px;
+    width: calc((100% - 24px) / 2);
+}
+.name-adv {
+    text-align: start;
+    
+}
+.text-adv {
+    min-width: 356px;
+}
 }
