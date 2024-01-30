@@ -161,6 +161,7 @@ text-transform: uppercase;
     background-position: center;
     background-size: cover;
     width: 320px;
+    margin: 0 auto;
     
     /* margin: auto;
     
@@ -205,7 +206,7 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
 /* margin-top: 48px; */
-margin-top: 72px;
+/* margin-top: 72px; */
 margin-left: auto;
 margin-right: auto;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -239,7 +240,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 .advantages-text {
     /* width: calc((100% - 72px) / 4); */
-    
+margin: 0 auto;
 }
 
 .name-adv {
@@ -766,5 +767,24 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-right: 16px;
     margin: 0 auto;
     }
+    .solution {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        width: 768px;
+    }
+    .title-name {
+        width: 496px;
+        /* width: 216px; */
+        font-size: 56px;
+     /* font-size: 36px; */
+    margin-bottom: 36px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    color: #ffffff;
+    margin-bottom: 32px;
+    }
 }
-
