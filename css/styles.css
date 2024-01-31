@@ -972,6 +972,31 @@ background:  #FFF;
         width: 100%;
         height: 100%;
 }
+
+.footer-cont {
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 768px;
+    padding-left: 108px;
+    
+    column-gap: 24px;
+    row-gap: 72px;
+}
+.logo-text {
+    /* margin-right: 120px; */
+    /* margin-bottom: 72px; */
+    text-align: left;
+}
+.footer-logo-web {
+    margin-left: 0;
+}
+.footer-p {
+    text-align: left;
+}
+
 }
 
 @media screen and (min-width: 1158px) {
