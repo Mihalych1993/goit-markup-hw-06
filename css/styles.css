@@ -989,14 +989,30 @@ background:  #FFF;
     /* margin-right: 120px; */
     /* margin-bottom: 72px; */
     text-align: left;
+    margin-bottom: 0;
+}
+.form-email {
+    margin-left: 0;
 }
 .footer-logo-web {
     margin-left: 0;
 }
-.footer-p {
+.p-form-email {
     text-align: left;
 }
 
+.form-send {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.footer-p {
+    text-align: left;
+}
+.footer-soc {
+    width: 208px;
+    height: 80px;
+}
 }
 
 @media screen and (min-width: 1158px) {
@@ -1005,8 +1021,23 @@ background:  #FFF;
     padding: 0 15px;
     margin: 0 auto;
     }
+    .logo-text {
+        
+    }
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        max-width: 1440px;
+        
+    }
+    .footer-cont {
+        margin-right: 0;
+        max-width: 1128px;
+
+        
+    }
     .header-logo-web {
-        margin-right: 76px;
+        /* margin-right: 76px; */
     }
     .address {
         flex-direction: row;
