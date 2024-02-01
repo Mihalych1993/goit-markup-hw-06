@@ -970,9 +970,6 @@ letter-spacing: 0.32px;
     .menu-open-btn {
         display: none;
     }
-    .link-studio { 
-        
-    }
     .tel-email {
         display: block;
         font-style: normal;
@@ -1023,9 +1020,6 @@ letter-spacing: 0.32px;
     
 }
 
-.our-team {
-    
-}
 .team-list {
     display: flex;
     flex-direction: row;
@@ -1109,6 +1103,9 @@ padding-top: 32px;
 .footer-soc {
     width: 208px;
     height: 80px;
+}
+.modal-window {
+    width: 408px;
 }
 }
 
@@ -1224,5 +1221,8 @@ background:  #FFF;
     .email {
         font-size: 16px;
         line-height: 1.5;
+    }
+    .modal-window {
+        width: 408px;
     }
 }
