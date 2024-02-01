@@ -39,21 +39,23 @@ img {
     padding: 0 15px 0 15px; */
     max-width: 320px;
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .header-container {
-display: flex;
-justify-content: space-between;
-}
-
-.navigation {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px; 
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header-logo-web {
-    /* margin-right: 76px; */
+    
     font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
 font-size: 18px;
@@ -62,11 +64,9 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding: 17px 0;
 }
 
 .header-logo {
-
     font-family: 'Raleway', sans-serif;
     color:  #2E2F42;
 font-size: 18px;
@@ -142,6 +142,7 @@ text-transform: uppercase;
 
 
 .tel-email {
+    display: none;
     font-style: normal;
 }
 .email {
@@ -191,7 +192,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
-margin: 0 auto;
+margin-bottom: 72px;
+margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -222,21 +225,26 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404BBF;
 }
 
+
+
 .advantages {
     /* padding: 120px 0; */
-    padding-top: 96px;
-    padding-bottom: 24px;
+    padding: 96px 16px;
 }
 .advantages-list {
     /* display: flex;
     gap: 24px; */
-    display: none;
-
+    display: flex;
+    flex-direction: column;
+    row-gap: 72px;
 }
 
 .advantages-text {
     /* width: calc((100% - 72px) / 4); */
-margin: 0 auto;
+  
+}
+.icons-team {
+    display: none;
 }
 
 .name-adv {
@@ -263,7 +271,7 @@ margin: 0 auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
 }
 .team-list .team-list-profil .team-list-text .text-adv {
     margin-bottom: 8px;
@@ -815,6 +823,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .container {
     max-width: 768px;
     margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
     }
     .header-logo-web {
         margin-right: 120px;
@@ -823,6 +833,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         display: flex;
         gap: 40px;
     }
+    .navigation {
+    display: flex;
+    align-items: center;
+    
+}
     .current {
         position: relative;
         color: #404bbf;
@@ -857,7 +872,6 @@ letter-spacing: 0.32px;
             display: flex;
             flex-direction: column;
             gap: 12px;
-            padding: 16px 0;
             
         }
         .email {
@@ -870,7 +884,13 @@ letter-spacing: 0.32px;
     .menu-open-btn {
         display: none;
     }
-
+  
+    .tel-email {
+        display: block;
+        font-style: normal;
+        padding-top: 16px;
+padding-bottom: 16px;
+    }
 
     .solution {
         padding-top: 112px;
@@ -893,11 +913,11 @@ letter-spacing: 0.32px;
     margin-bottom: 32px;
     }
     .advantages {
-        
+        padding-top: 96px;
         padding-bottom: 96px;
     }
     .advantages-list {
-        display: none;
+        display: flex;
         flex-direction: row;
         row-gap: 72px;
         column-gap: 24px;
@@ -908,7 +928,8 @@ letter-spacing: 0.32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
+    width: 356px;
+    
     
 }
 .name-adv {
@@ -1012,8 +1033,18 @@ background:  #FFF;
     margin: 0 auto;
     width: 100%;
     }
+    .navigation {
+        display: flex;
+        align-items: center;
+        
+    }
     .solution {
-        width: 100%;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        width: 1440px;
+    }
+    .title-name {
+        margin-bottom: 48px;
     }
     
     .icons-team {
@@ -1025,6 +1056,10 @@ background:  #FFF;
         border-radius: 4px;
         margin-bottom: 8px;
         border: 1px solid #8E8F99;
+}
+.advantages {
+    padding: 120px 16px;
+    display: flex;
 }
 .advantages-list {
     display: flex;
